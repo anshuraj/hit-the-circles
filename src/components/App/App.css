@@ -1,0 +1,56 @@
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  width: 360px;
+  align-self: center;
+  text-align: center;
+}
+
+.circle {
+  margin: 5px;
+  height: 30px;
+  width: 30px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.active {
+  background-color: lightblue;
+}
+
+.circles {
+  width: 270px;
+  padding: 25px 0;
+}
+
+button {
+  width: 100px;
+  height: 35px;
+  font-size: 14px;
+  background: #dee6ec;
+}
+
+button.play {
+  background: #1779cd;
+  margin-right: 10px;
+  color: white;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"] {
+  height: 20px;
+  padding: 2px;
+  font-size: 14px;
+}
+
+.instructions {
+  text-align: left;
+}
