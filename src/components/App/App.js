@@ -50,7 +50,7 @@ function App() {
       <Circles
         count={new Array(36).fill(1)}
         active={active}
-        isPlaying
+        isPlaying={isPlaying}
         circleClicked={circleClicked}
       />
       <hr />
